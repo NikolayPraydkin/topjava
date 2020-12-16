@@ -18,7 +18,7 @@ import java.util.function.Predicate;
 import java.util.Collection;
 import static java.util.function.Function.identity;
 import static java.util.stream.Collectors.toList;
-import static ru.javawebinar.topjava.util.DateTimeUtil.isBetweenHalfOpen;
+import static ru.javawebinar.topjava.util.Util.isBetweenHalfOpen;
 
 public class MealsUtil {
     public static final int DEFAULT_CALORIES_PER_DAY = 2000;
